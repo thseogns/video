@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/***************1480px******************/
+@media (max-width: 1479px) {
+  header {
+    margin: 0 3.5vw;
+  }
+
+  .con1,
+  .con2 {
+    width: 100%;
+
+  }
+
+  .resevation_container a {}
+}
+
+/***************1023px******************/
+@media (max-width: 1023px) {
+  header {
+    height: 80px;
+  }
+
+  .logo {
+    top: 20px;
+  }
+
+  .logo01 {
+    font-size: 0.6rem;
+  }
+
+  .logo02 {
+    font-size: 1.5rem;
+  }
+
+  .menu_container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+
+    z-index: 10;
+
+  }
+
+  .m_menuBtn {
+    display: block;
+  }
+
+  .global_container {
+    display: none;
+  }
+
+  .resevation_container {
+    top: 34px;
+    right: 50px;
+  }
+
+  .resevation_container a {
+    border: none;
+    font-size: 13px;
+    padding: 0;
+  }
+
+  #header_wrap.scroll .resevation_container a {
+    border: none
+  }
+
+  .main_text {
+    font-size: 5vw;
+    margin-bottom: 20px;
+  }
+
+  .main_text_resevation {
+    display: inline-block;
+  }
+
+  .main_text_resevation a {
+    display: block;
+    padding: 15px 30px;
+    border: 1px solid white;
+    color: white;
+    transition: all 300ms;
+  }
+
+  .main_text_resevation a:hover {
+    padding: 15px 30px;
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: all 300ms;
+  }
+
+  #menu {
+    margin-top: 12vh;
+  }
+
+  #menu>li {
+    display: block;
+  }
+
+  #menu>li>a {
+    padding: 0;
+    font-size: 5vw;
+    line-height: 15vh;
+  }
+}
+
+/***************600px******모바일************/
+@media(max-width:599px) {
+  .main_text {
+    font-size: 32px;
+    margin-bottom: 15px;
+
+  }
+}
